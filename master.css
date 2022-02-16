@@ -6,14 +6,13 @@
 
 /* Components Start */
 
-button {
+a {
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 10px 20px;
-	border: none;
 	border-radius: 35px;
 	font-size: 20px;
+	text-decoration: none;
 	width: fit-content;
-	cursor: pointer;
 }
 
 h1,
@@ -66,6 +65,10 @@ main .landing .content h1 {
 	margin-bottom: 48px;
 }
 
+main .landing .content a {
+	background-color: white;
+	color: black;
+}
 /* Landing End */
 /* Services Start */
 
@@ -84,7 +87,7 @@ main .landing .content h1 {
 	gap: 48px;
 }
 
-.services .content button {
+.services .content a {
 	color: white;
 	background-color: black;
 }
@@ -110,7 +113,7 @@ main .landing .content h1 {
 	margin-top: 75px;
 }
 
-.schedule .content button {
+.schedule .content a {
 	color: white;
 	background-color: black;
 }
@@ -156,8 +159,9 @@ main .landing .content h1 {
 .reviews .content > div > div p {
 	line-height: 1.5;
 }
-.reviews button {
+.reviews a {
 	background-color: #fce0cf;
+	color: black;
 }
 
 /* Reviews End */
